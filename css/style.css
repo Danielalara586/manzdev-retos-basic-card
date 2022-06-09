@@ -1,0 +1,129 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background: #0592d4;
+    background: linear-gradient(to right, #9FE1FF, #76F9B8);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    border-radius: 15px;
+    background-color: white;
+    max-width: 450px;
+    margin: auto;
+    height: 700px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.card .background img {
+    width: 450px;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    border-bottom: #0592d4 3px solid;
+}
+
+.card .profile-pic img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    left: 50%;
+    margin-left: -50px;
+    top: 120px;
+    border: #0592d4 3px solid;
+}
+
+.card .content {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.card .content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.card .content span {
+    font-size: 1.2rem;
+    color: #C40B0B;
+}
+
+.card .content span i {
+    padding: 5px;
+}
+
+.card .content p {
+    font-size: 1.4rem;
+    margin-top: 30px;
+    text-align: justify;
+    padding: 0 50px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.card .content .btn {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #0592d4;
+    padding: 10px 35px;
+    border: #0592d4 solid 2.5px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.card .content .btn:hover {
+    background-color: #0592d4;
+    color: white;
+}
+
+.card footer {
+    margin-top: 60px;
+    border-top: #a1a1a1 solid 1px;
+}
+
+.card footer div {
+    display: inline-block;
+    width: 147px;
+    height: 118px;
+    text-align: center;
+    padding: 42px;
+    font-size: 1.2rem;
+}
+
+.card footer div h3 {
+    margin-bottom: 5px;
+    color: #a1a1a1;
+    font-size: 1.4rem;
+}
+
+.card footer div .icon {
+    color: #a1a1a1;
+}
+
+.card footer .followers,
+.following {
+    border-left: #a1a1a1 solid 1px;
+}
